@@ -16,7 +16,7 @@ function updateValue(e) {
 }
 
 area.addEventListener("keyup", (e) => {
-  if (e.keyCode == 188) {
+  if (e.keyCode == 13) {
     const newText = document.createElement("p");
     newText.textContent = firstText.textContent.slice(0, -1);
     newText.classList.add("chose");
